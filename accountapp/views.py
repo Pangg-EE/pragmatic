@@ -9,7 +9,7 @@ from django.urls import reverse, reverse_lazy
 from django.utils.decorators import method_decorator
 from django.views.generic import CreateView, DetailView, UpdateView, DeleteView
 
-from accountapp.decorator import account_ownership_required
+from accountapp.decorators import account_ownership_required
 from accountapp.forms import AccountUpdateForm
 from accountapp.models import HelloWorld
 
